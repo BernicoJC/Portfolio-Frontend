@@ -1,0 +1,17 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+	<title>New Project</title>
+	<defs>
+		<image  width="16" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAAXNSR0IB2cksfwAAABhQTFRF////Wpj/OIP/N4P/NoL/WZj/WZf/OYT/yv3dlwAAAFNJREFUeJxjZGAQUuK/d5+BkYHJiYGB4c4DRgYTASDj/15GsABQiDHkA5jByKiiAGb8YwQrASpidGFAZ8Cl4IpTHoAZTAgD4VYgLGVIP8Pg3MUAALsvGGywsCadAAAAAElFTkSuQmCC"/>
+		<image  width="8" height="13" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAANCAMAAACjHN8KAAAAAXNSR0IB2cksfwAAAHhQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////xqjkrAAAACh0Uk5TAEg/BxXoxuR9wDvEvkTy20XH1bYn7iJtb6fXS+J5FOfpzKS8yINwPgMsFFIAAABiSURBVHicPcpBC0RQGIXh80pqQrm7SUyk/P+/Ixubm2ZnMWRxNT4pq/N0zkH8Iw6JGAG7eLFJ6Sqynx7kti041uyIjYn72vbm/kglaeEvVNRhtvyAmsnQGjpf+dCMSD2DdScYWRa0jhSmVgAAAABJRU5ErkJggg=="/>
+		<image  width="15" height="13" id="img3" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAANCAMAAABBwMRzAAAAAXNSR0IB2cksfwAAAGBQTFRFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+k/ojQAAACB0Uk5TALFs/DP7kP4U2mn6/yDRBi65/QlCpO0SBGSt1/j29fd4UT+mAAAAW0lEQVR4nF3OvQ5AQBAE4BlxgpwoFDTe/9FEVJJtSDiLcNZ2X2b/iG8x0DihdfpzZp1zNy5p8oqLi641XPG4Uc1OP2hHdEHvclJBiJ7chuLukrPfvysE17yPxAHPsw5Ujdk03AAAAABJRU5ErkJggg=="/>
+		<image  width="12" height="12" id="img4" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAMAAABhq6zVAAAAAXNSR0IB2cksfwAAAFpQTFRFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAi0leUQAAAB50Uk5TAHCDpgPQFPtl/xPJBv4IffgFJZD0BA0kaJvXW7j3v8AhlAAAAExJREFUeJxjZEAARkYkDhMyhxmJw4KsjA2Zw4HE4WL8B+fwfOP+A+PwMTL+/A7hCDIyMn79zsDIIMoIAu8ZvgOdIP1MmvENUBLIZgAAhgMMOngUcFEAAAAASUVORK5CYII="/>
+		<image  width="7" height="6" id="img5" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAGCAMAAAA40HREAAAAAXNSR0IB2cksfwAAAD9QTFRFAAAA////////////////////////////////////////////////////////////////////////////////Q7v6agAAABV0Uk5TAGWXigX7/2b50dmD/X0uue/12msMiDnayAAAACxJREFUeJwdikkKACAQgLSNIOj/fw2qKS+CKOADqpwkfUfKphKiOFao6fyXF1JlA0bTkXa7AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<use id="Layer 3" href="#img2" x="4" y="1"/>
+	<use id="Layer 1" style="opacity: .28;mix-blend-mode: darken" href="#img3" x="1" y="3"/>
+	<use id="Layer 1 copy" style="opacity: .28;mix-blend-mode: darken" href="#img4" x="4" y="4"/>
+	<use id="Layer 2" style="opacity: .19;mix-blend-mode: lighten" href="#img5" x="1" y="0"/>
+</svg>
