@@ -4,9 +4,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   build: {
-    rollupOptions: {
-      external: ['react-router-dom']
-    }
+    target: "esnext",
   },
   server: {
     port: process.env.PORT || 4173,
