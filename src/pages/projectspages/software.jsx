@@ -27,6 +27,7 @@ const Software = () => {
                   {
                       projectData.map((software) => (
                         
+                        
                         <Popup
                         trigger={<div key={software.id} id="project">
                             <div id="project_image">
