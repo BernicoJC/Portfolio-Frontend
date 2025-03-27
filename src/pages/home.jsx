@@ -24,7 +24,7 @@ const Home = () => {
                 <div id="form">
                     <h2>Feedback</h2>
                     <hr></hr>
-                    {/* <Form /> */}
+                    <Form />
                 </div>
             </div>
 
