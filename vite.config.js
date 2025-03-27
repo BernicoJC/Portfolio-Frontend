@@ -10,6 +10,7 @@ export default defineConfig({
   },
   server: {
     port: process.env.PORT || 4173,
-    host: true
+    host: true,
+    allowedHosts: "bernico-12c1c54f39fd.herokuapp.com"
   }
 });
