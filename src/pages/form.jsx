@@ -53,9 +53,10 @@ const Form = () => {
 
             <textarea name="feedback" value={formData.feedback} onChange={handleChange} placeholder="What can I do to improve this site?" rows="4" cols="50" required></textarea>
 
+            <div id="captcha">
+                <ReCAPTCHA sitekey={import.meta.env.VITE_REACT_APP_SITE_KEY} ref={captchaRef} onChange={handleToken}/>
 
-            <ReCAPTCHA sitekey={import.meta.env.VITE_REACT_APP_SITE_KEY} ref={captchaRef} onChange={handleToken}/>
-
+            </div>
 
             <button type="submit" disabled={!captchaToken}>Submit</button>
         </form>

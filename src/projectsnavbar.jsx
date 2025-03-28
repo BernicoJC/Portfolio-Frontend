@@ -11,7 +11,7 @@ const ProjectNavBar = () => {
 
             <NavLink to="../projects/other">
                 <li id="project_navbar">
-                    Other Programming Projects
+                    Other Projects
                 </li>
             </NavLink>
 

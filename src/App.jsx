@@ -14,8 +14,8 @@ import Navbar from './navbar.jsx';
 function App() {
   return (
     <>
+      <Navbar/>
       <div id="page">
-        <Navbar/>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/projects" element={<Navigate to="/projects/home" />}/>
