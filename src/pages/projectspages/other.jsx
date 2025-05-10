@@ -23,8 +23,10 @@ const Other = () => {
 
                 <div id="projects_container">
                     {
+                        // Generate popup triggerrers for each of the projects from the backend
                         projectData.map((game) => (
                             <Popup
+                            // The element to display the trigger with. (The summary that can be clicked)
                             trigger={<div key={game.id} id="project">
                                 <div id="project_image">
                                     <img src={game.image}/>
@@ -41,7 +43,9 @@ const Other = () => {
                             nested
                             >
                                 {
+                                    // Close function provided by the library.
                                     close => (
+                                        // The popup
                                         <div key={game.id} id="popup_modal">
                                             <h1>{game.title}</h1>
                                             <img src={game.image} width="40%" />
@@ -49,17 +53,13 @@ const Other = () => {
                                             <br></br>
                                             <h3><a href={game.link}>Link to Project</a></h3>
                                             <br></br>
+                                            
+                                            {/* Run the close function */}
                                             <button onClick={() => close()}>Close</button>
                                         </div>
                                     )
                                 }
                             </Popup>
-                            // <div key={game.id} className="project">
-                            //     <h2>{game.title}</h2>
-                            //     <h3>{game.subtitle}</h3>
-                            //     <h3>{game.description}</h3>
-                            //     <img src={game.image} width="20%" />
-                            // </div>
                         ))
                     }
                 </div>

@@ -16,6 +16,7 @@ function App() {
     <>
       <Navbar/>
       <div id="page">
+        {/* Defining all the routes so that they're reachable */}
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/projects" element={<Navigate to="/projects/home" />}/>

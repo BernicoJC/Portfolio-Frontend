@@ -16,6 +16,7 @@ const Form = () => {
         setCaptchaToken(token) 
     }
 
+    // Watch the form's inputs for change. Change the useState, so that sending to database is easier.
     const handleChange = (e) => {
         setFormData({
             ...formData,
@@ -23,9 +24,10 @@ const Form = () => {
         })
     }
 
+    // Send the form's input to backend
     function sendToDb(event){
         event.preventDefault();
-        
+        // Posting to backend
         fetch(`${import.meta.env.VITE_API_URL}/feedback/add`, {
             method: "POST",
             headers: {
@@ -34,7 +36,8 @@ const Form = () => {
             body: JSON.stringify(formData),
         })
         .then(response => response.json())
-        .then(data => {
+        .then(_ => {
+            // Reset the captcha and the useState
             captchaRef.current.reset()
             setCaptchaToken(null)
             window.location.reload()

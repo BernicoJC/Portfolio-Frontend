@@ -2,6 +2,7 @@ const Resume = () => {
     return (
         <div id="content">
             <h1>Resume</h1>
+            {/* Make the ids differ so that the css can be different. */}
             <div id="desktop_only">
                 <h3>The resume displayed here might be outdated. Please email me at bernicojc113@gmail.com for my up to date resume. Thank you!</h3>
             </div>

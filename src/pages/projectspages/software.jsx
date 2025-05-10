@@ -26,9 +26,9 @@ const Software = () => {
                 
                 <div id="projects_container">
                     {
-                        projectData.map((software) => (
-                            
-                            
+                        // Generate popup triggerrers for each of the projects from the backend
+                        projectData.map((software) => (     
+                            // The element to display the trigger with. (The summary that can be clicked)                       
                             <Popup
                             trigger={<div key={software.id} id="project">
                                 <div id="project_image">
@@ -46,7 +46,9 @@ const Software = () => {
                             nested
                             >
                                 {
+                                    // Close function provided by the library.
                                     close => (
+                                        // The popup
                                         <div key={software.id} id="popup_modal">
                                             <h1>{software.title}</h1>
                                             <img src={software.image} width="40%" />
@@ -56,6 +58,8 @@ const Software = () => {
                                             <br></br>
                                             <h3><a href={software.link}>Link to Project</a></h3>
                                             <br></br>
+
+                                            {/* Run the close function */}
                                             <button onClick={() => close()}>Close</button>
                                         </div>
                                     )

@@ -1,6 +1,5 @@
 import { NavLink } from 'react-router-dom';
 
-// https://hygraph.com/blog/routing-in-react for design later on
 const NavBar = () => {
     return(
         <ul id="main_navbar_container">
